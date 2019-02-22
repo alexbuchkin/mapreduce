@@ -1,0 +1,1 @@
+./csvmap --sep=' ' --select='a, -a as minus_a, 0 as NULL' --filter='a > 0' tests/small/input/01.csv tests/small/output/01.csv

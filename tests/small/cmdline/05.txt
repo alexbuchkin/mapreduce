@@ -1,0 +1,1 @@
+./csvmap --sep=',' --select=' - first + second * (-3 + 20 - third) + fourth / (100 - ( first + second) ) as expr, first, second, third, fourth' --filter='first > 0 and second + third > 10 and not 5 - fourth = 0 or 3 > (5 - 4) * 100' tests/small/input/05.csv tests/small/output/05.csv

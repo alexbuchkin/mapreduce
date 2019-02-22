@@ -1,0 +1,1 @@
+./csvreduce --sep=' ' --keys='b, c' --aggrs='min(a) as a_min, max(d) as d_max' tests/small/input/02.csv tests/small/output/02.csv
